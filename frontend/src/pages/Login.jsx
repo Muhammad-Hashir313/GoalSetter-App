@@ -68,7 +68,7 @@ const Login = () => {
                 <form onSubmit={onSubmit}>
                     <div className="form-group">
                         <input
-                            type="text"
+                            type="email"
                             className="form-control"
                             id='email'
                             name='email'
@@ -76,6 +76,7 @@ const Login = () => {
                             placeholder='Enter your email'
                             onChange={onChange}
                             autoComplete='off'
+                            required
                         />
                     </div>
                     <div className="form-group">
@@ -87,6 +88,7 @@ const Login = () => {
                             value={password}
                             placeholder='Enter a password'
                             onChange={onChange}
+                            required
                         />
                     </div>
                     <div className="form-group">

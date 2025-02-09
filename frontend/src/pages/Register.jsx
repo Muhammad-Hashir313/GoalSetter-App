@@ -81,11 +81,12 @@ const Register = () => {
                             placeholder='Enter your name'
                             onChange={onChange}
                             autoComplete='off'
+                            required
                         />
                     </div>
                     <div className="form-group">
                         <input
-                            type="text"
+                            type="email"
                             className="form-control"
                             id='email'
                             name='email'
@@ -93,6 +94,7 @@ const Register = () => {
                             placeholder='Enter your email'
                             onChange={onChange}
                             autoComplete='off'
+                            required
                         />
                     </div>
                     <div className="form-group">
@@ -104,6 +106,7 @@ const Register = () => {
                             value={password}
                             placeholder='Enter a password'
                             onChange={onChange}
+                            required
                         />
                     </div>
                     <div className="form-group">
@@ -115,6 +118,7 @@ const Register = () => {
                             value={password2}
                             placeholder='Confirm password'
                             onChange={onChange}
+                            required
                         />
                     </div>
                     <div className="form-group">
